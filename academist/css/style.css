@@ -1,0 +1,57 @@
+
+
+.top_bar{
+    background-color: #1D1D1D;
+    padding: 15px 0;
+}
+.top_bar .left .contact{
+ float: left;
+ padding-right: 10px;
+}
+.top_bar .left .contact a , .top_bar .right ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #b6b6b6;
+    transition-duration: 0.5s;
+}
+.top_bar .left .contact a:hover, .top_bar .right ul li a:hover{
+    color: red;
+}
+.top_bar .left .follow ul, .top_bar .right ul{
+    list-style: none;
+}
+.top_bar .left .follow ul li , .top_bar .right ul li{
+    float: left;
+    padding: 0 8px;
+}
+.top_bar .left .follow ul li a, .top_bar .right ul li a{
+    color: #b6b6b6;
+    cursor: pointer;
+    justify-content: middle;
+}
+.top_bar .right{
+    float: right;
+}
+/* top bar style finis */
+header .logo{
+    float: left;
+    width: 600px;
+}
+header .logo img{
+    width: 100%;
+}
+header .menu{
+    float: left;
+}
+header .menu ul{
+    list-style: none;
+}
+header .menu ul li{
+    float: left;
+    display: flex;
+}
+header .menu ul li a{ 
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+}
