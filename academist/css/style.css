@@ -19,6 +19,7 @@
 }
 .top_bar .left .follow ul, .top_bar .right ul{
     list-style: none;
+    margin: 0;
 }
 .top_bar .left .follow ul li , .top_bar .right ul li{
     float: left;
@@ -33,25 +34,114 @@
     float: right;
 }
 /* top bar style finis */
-header .logo{
-    float: left;
-    width: 600px;
+/* header area design  */
+header{
+    padding: 20px 0;
 }
-header .logo img{
+header .image{
+    width: 200px;
+}
+header .image img{
     width: 100%;
 }
-header .menu{
-    float: left;
-}
-header .menu ul{
+header .main-menu{
     list-style: none;
+    text-align: right;
+    padding-top: 10px;
 }
-header .menu ul li{
-    float: left;
-    display: flex;
+header .main-menu li{
+    display: inline-block;
 }
-header .menu ul li a{ 
-    padding: 0 15px;
+header .main-menu li a{
+    text-decoration: none;
+    color: #252525;
+    font-family: 'Poppins', Open Sans;
     font-size: 17px;
-    font-family: Poppins, sans-serif;
+    text-transform: capitalize;
+    font-weight:600;
+    margin: 0 0 0 20px;
+    transition-duration: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+header .main-menu .active{
+    border-bottom: 2px solid #FE1949 !important;
+}
+header .main-menu li a:hover{
+    border-bottom: 2px solid #FE1949;
+}
+header .menu-icon{
+    margin-left: 10px !important;
+}
+header .menu-icon:hover{
+    border-bottom: 2px solid transparent !important;
+    color: #FE1949;
+}
+/* header section area design finish */
+.home{
+   background-image: url(../img/home/main-home-img-6.jpg);
+   background-size: cover;
+    padding: 150px 0;
+}
+.home h1{
+	font-size: 92px;
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+}
+.home h1:before{
+	content: '';
+	position: relative;
+	height: 3px;
+	width: 60px;
+	background: #fff;
+	bottom: 0;
+	left: 0;
+}
+.home p{
+	font-size: 19px;
+	font-weight: 300px;
+	color: #fff;
+	line-height: 30px;
+	padding: 50px 0;
+}
+.btn{
+	font-size: 17px;
+	font-weight: 600px;
+	color: #fff;
+	border: 2px solid #fff;
+	text-transform: capitalize;
+	padding: 20px 40px;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 30px;
+}
+.btn i{
+	visibility: hidden;
+	transition-duration: 0.3s;
+}
+.btn:hover i{
+	visibility: visible;
+}
+.btn-active{
+	background: #FF1949;
+	border: 2px solid #FF1949;
+}
+
+/* home are design finih  */
+
+/* course area design start  */
+.course-menu{
+    list-style: none;
+    padding-bottom: 40px;
+}
+.course-menu li{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #252525;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.course-home img{
+    width: 100%;
 }
