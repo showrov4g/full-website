@@ -40,9 +40,9 @@ body{
     padding: 0 25px;
 }
 .col-33{
-    width: 33.33%;
+    width: 30%;
     float: left;
-    padding: 0 25px;
+    padding: 0 15px;
 }
 .col-50{
     width: 50%;
