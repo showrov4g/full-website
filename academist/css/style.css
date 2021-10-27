@@ -1,5 +1,3 @@
-
-
 .top_bar{
     background-color: #1D1D1D;
     padding: 15px 0;
@@ -174,4 +172,68 @@ position: absolute;
 .course-details{
     font-size: 17px;
     color: #252525;
+    padding-top: 25px;
 }
+.course-details h3{
+    font-size: 20px;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+.course-details h3 a{
+    text-decoration: none;
+    color: #252525;
+}
+.course-details h3 a:hover{
+    color: #ff1949;
+}
+.instructor{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #252525;
+    padding-bottom: 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.instructor::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: red;
+    transition: 0.5;
+}
+.instructor:hover::before{
+    width: 60px;
+}
+.course-details p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #444;
+}
+.courses-footer{
+    font-size: 13px;
+    padding-top: 30px;
+}
+.courses-footer a{
+    color: #252525;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.courses-footer i{
+    padding-right: 4px;
+}
+.courses-footer .ratting{
+    margin-left: 20px;
+}
+.course-free{
+    float: right;
+    font-size: 20px;
+    color: #ff1949 !important;
+    font-weight: 700;
+}
+/* course section design finish */
+
+/* expert section area design satart form hear  */
+
