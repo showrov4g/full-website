@@ -246,15 +246,54 @@ position: absolute;
 .expert-box-1{
     background: red;
 }
-.expert-box-1 h3{
-    padding: 100px;
+.expert-box .text{
+    padding: 100px 185px;
+    color: #fff;
 }
+.expert-box .text h3{
+    font-size: 40px;
+}
+.expert-box .text a{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+}
+
 .expert-box-2{
     background-image: url(../img/expert/main-home-img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .expert-box-3{
     background-image: url(../img/expert/main-home-img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.expert-box-4{
+.expert-box-4 h3, 
+.expert-box-4 a {
+    color: #252525 !important;
+}
 
+/* expert area style finish here */
+
+/* teacher area design start from here */
+.section-title h2{
+    font-size: 45px;
+    color: #252525;
+    padding-bottom: 40px;
+    position: relative;
 }
+.section-title h2::before{
+    
+}
+.section-title p{
+    font-size: 19px;
+    color: #333;
+    line-height: 29px;
+}
+
+
+
+
+/* teacher area design finish here  */
