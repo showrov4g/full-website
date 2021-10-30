@@ -278,6 +278,10 @@ position: absolute;
 /* expert area style finish here */
 
 /* teacher area design start from here */
+
+.section-title{
+    padding-bottom: 60px;
+}
 .section-title h2{
     font-size: 45px;
     color: #252525;
@@ -285,15 +289,46 @@ position: absolute;
     position: relative;
 }
 .section-title h2::before{
-    
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    bottom: 25px;
+    background: #FE1949;
 }
 .section-title p{
     font-size: 19px;
     color: #333;
     line-height: 29px;
 }
-
-
-
-
+.teachers-single{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.teacher-single-left{
+    width: 140px;
+    height: 140px;
+}
+.teacher-single-right{
+    padding-top: 20px;
+}
+.teacher-single-right h3{
+    font-size: 20px;
+    color: #252525;
+    text-transform: capitalize;
+}
+.teacher-single-right span{
+    color: #252525;
+    font-size: 15px;
+}
+.teacher-single-right ul{
+    list-style: none;
+}
+.teacher-single-right ul li{
+    display: inline-block;
+}
+.teacher-single-right ul li a{
+    font-size: 14px;
+}
 /* teacher area design finish here  */
