@@ -48,8 +48,10 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 70px;
     font-weight: 700;
+    margin-top: 10px;
 }
 .hero .text p{
+    margin: 10px 0;
     color: #fff;
     font-size: 18px;
     font-weight: 400;
@@ -62,5 +64,9 @@ header{
     line-height: 14px;
     font-weight: 600;
     padding: 18px 35px;
-    background: ##FF5421;
+    background: #FF5421;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
 }
