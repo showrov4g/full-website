@@ -334,8 +334,50 @@ position: absolute;
 /* teacher area design finish here  */
 
 /* testimonail section area design start from here */
-
-
-
+.testimonail{
+    background: #FF1A49;
+}
+.testimonail .section_padding{
+    padding-bottom: 30px;
+}
+.testimonail .main{
+    display: flex;
+    justify-content: left;
+}
+.testimonail .text{
+    margin-left: 20px;
+    z-index: 10;
+}
+.testimonail .text h3{
+    color: #fff;
+    font-size: 54px;
+    font-family: 'Poppins', Open Sans;
+}
+.testimonail .text span{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', Open Sans;
+    font-weight: 600;
+}
+.testimonail .icon{
+    font-size: 200px;
+    opacity: 0.3;
+}
 
 /* testimonail section area design finsih here */
+
+
+/* tour area design start from here */
+.tour .main-content{
+    display: flex;
+    justify-content: ;
+}
+.tour .video video{
+    width: 100%;
+}
+.tour .text h3{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #252525;
+}
