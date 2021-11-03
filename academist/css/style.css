@@ -412,3 +412,6 @@ position: absolute;
 /* tour area design start from here  */
 
 /* logo area design start from here */
+.logo{
+    background-image: url(../img/logo/main-background-3.jpg);
+}
