@@ -16,6 +16,10 @@ body{
     display: block;
     clear: both;
 }
+.col-33{
+    width: 33.33%;
+    float: left;
+}
 .col-20{
     width: 20%;
     float: left;
