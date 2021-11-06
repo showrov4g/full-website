@@ -415,3 +415,69 @@ position: absolute;
 .logo{
     background-image: url(../img/logo/main-background-3.jpg);
 }
+
+/* logo area finish here */
+.form{
+    background-image: url(../img/main-background-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form span{
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+    font-weight: 900;
+}
+.form .bg{
+    background: #FE1949;
+    padding: 100px 0px 100px 35px;
+}
+.signup{
+    background-color: #fff;
+    padding: 85px 20px 85px 30px;
+}
+.signup h3{
+    color: #252525;
+    font-size: 48px;
+}
+.signup input{
+    width: 90%;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px;
+}
+/* form area design finish */
+footer{
+    background: #252525;
+}
+footer h3{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+footer span{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0;
+    color: #fff;
+}
+footer ul{
+    margin-top: 10px;
+}
+footer ul li{
+    padding: 5px 0;
+}
+footer ul li a{
+    color: #FFF;
+}
+footer ul li i{
+    padding-right: 10px;
+}
+footer .map img{
+    width: 90%;
+}

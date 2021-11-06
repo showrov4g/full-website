@@ -31,7 +31,7 @@ body{
 .col-25{
     width: 25%;
     float: left;
-    padding: 0 25px;
+    /* padding: 0 15px; */
 }
 .col-30{
     width: 30%;
@@ -44,9 +44,8 @@ body{
     padding: 0 15px;
 }
 .col-50{
-    width: 50%;
+    width: 46%;
     float: left;
-    padding: 0 25px;
 }
 .col-70{
     width: 70%;
@@ -77,5 +76,7 @@ img{
 ul{
     list-style: none;
 }
-
+ a{
+    text-decoration: none;
+ }
 /* decult css */
