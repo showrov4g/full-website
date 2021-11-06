@@ -58,7 +58,7 @@ header{
     line-height: 28px;
     font-family: 'Roboto', sans-serif;
 }
-.hero .text button{
+ button{
     color: #fff;
     font-size: 14px;
     line-height: 14px;
@@ -76,4 +76,58 @@ header{
 
 .service{
     background-color: #ff5421;
+    padding: 70px 0;
+}
+.service .content{
+    display: flex;
+    justify-content: space-between;
+}
+.service .content .icon{
+    padding: 25px;
+    background: white;
+    border-radius: 50%;
+}
+.service .content .icon i{
+    font-size: 30px;
+    color:#FF0000;
+    margin: 0;
+    padding: 0;;
+}
+.service .content .text h3{
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.service .content .text{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.service .content .text span{
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* services area design finsih here */
+.best-univercity span{
+    color: #FF5421;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.best-univercity h3{
+    color: #132643;
+    font-family: "Roboto", Sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-right: 35px;
+}
+.best-univercity p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
 }
