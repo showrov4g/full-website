@@ -28,6 +28,10 @@ body{
     width: 30%;
     float: left;
 }
+.col-33{
+    width: 30%;
+    float: left;
+}
 .col-40{
     width: 40%;
     float: left;
@@ -60,5 +64,8 @@ img{
     width: 100%;
 }
 .section-padding{
-    padding: 150px 0;
+    padding: 100px 0;
+}
+a{
+    text-decoration: none;
 }

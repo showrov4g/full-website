@@ -131,3 +131,52 @@ header{
     line-height: 24px;
     font-weight: 300;
 }
+
+/* best univercity area design finish here */
+.program{
+    background: #F5F5F5;
+}
+.program .text{
+    text-align: center;
+}
+.program .text span{
+    text-transform: uppercase;
+    color: #ff5421;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.program .text h3{
+    color:#132643;
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 700;
+}
+.program .dgree{
+    margin-top: 40px;
+    background: #fff;
+    margin: 40px 10px;
+    box-shadow: 1px 2px 5px #888888;
+}
+.program .dgree .content{
+    padding: 30px 20px;
+}
+.program .dgree h2{
+    color: #132643;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.program .dgree p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61686E;
+}
+.program .dgree a{
+    color: #e43804;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 10px;
+    display: block;
+}
