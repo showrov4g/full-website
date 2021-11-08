@@ -180,3 +180,54 @@ header{
     margin-top: 10px;
     display: block;
 }
+
+/* program area design finish here */
+ 
+/* course area design start from here */
+.course{
+    background: #F5F5F5;
+}
+.course .text{
+    text-align: center;
+}
+.course .text span{
+    text-transform: uppercase;
+    color: #ff5421;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.course .text h3{
+    color:#132643;
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 700;
+}
+.course .class{
+    margin-top: 40px;
+    background: #fff;
+    margin: 40px 10px;
+    box-shadow: 1px 2px 5px #888888;
+}
+.course .class .content{
+    padding: 30px 20px;
+}
+.course .class h2{
+    color: #132643;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.course .class p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61686E;
+}
+.course .class a{
+    color: #e43804;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 10px;
+    display: block;
+}
