@@ -205,9 +205,8 @@ header{
 }
 .course .class{
     margin-top: 40px;
-    background: #fff;
-    margin: 40px 10px;
-    box-shadow: 1px 2px 5px #888888;
+    background: #F7F7F7;
+    margin: 40px 10px 20px 10px;
 }
 .course .class .content{
     padding: 30px 20px;
@@ -217,6 +216,21 @@ header{
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 10px;
+}
+.course .class h6{
+    background: #FF5421;
+    padding: 2px 4px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.course .class span{
+    display: inline-block;
+    margin-bottom: 10px;
 }
 .course .class p{
     font-size: 16px;

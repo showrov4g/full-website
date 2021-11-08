@@ -24,6 +24,10 @@ body{
     width: 20%;
     float: left;
 }
+.col-25{
+    width: 25%;
+    float: left;
+}
 .col-30{
     width: 30%;
     float: left;
