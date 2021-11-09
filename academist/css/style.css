@@ -238,6 +238,7 @@ position: absolute;
 /* expert section area design satart form hear  */
 .expert .col-50{
     padding: 0;
+    margin: auto;
 }
 .expert-box{
     width: 100%;
@@ -264,6 +265,7 @@ position: absolute;
     background-image: url(../img/expert/main-home-img-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 .expert-box-3{
     background-image: url(../img/expert/main-home-img-3.jpg);

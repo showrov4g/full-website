@@ -272,6 +272,13 @@ header{
 
 .tesimonail .text{
     text-align: center;
+    margin: auto;
+}
+.tesimonail .class{
+    margin: 0px 5px;
+}
+.tesimonail .client{
+    margin-top: 50px;
 }
 .tesimonail .text span{
     text-transform: uppercase;
@@ -286,33 +293,103 @@ header{
     font-size: 44px;
     font-weight: 700;
 }
-.client{
-    background-color: #F5F5F5;
-    padding: 40px 20px;
+.tesimonail .content{
+    background: #F5F5F5;
+    padding: 40px 40px;
 }
-.client p::before{
+.tesimonail .content .person{
+    display: flex;
+}
+.tesimonail .content >p{
+    color: #61686e;
+    font-size: 14px;
+    margin-bottom: 30px;
+    display: block;
+}
+.tesimonail .content >p::before{
     content: "\f10d";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: #ece9f0;
-    font-size: 30px;
+    font-size: 26px;
     display: block;
-    margin-bottom: 30px;
-    color: #ddd;
+    margin-bottom: 15px;
 }
-.client p{
-    color: #61686E;
-    font-family: "Roboto", Sans-serif;
-    font-weight: 400;
-    margin-bottom: 20px;
+.tesimonail .content hr{
+    position: relative;
 }
-.client .author{
-    display: flex;
-    margin-top: 20px;
-    z-index: 1;
+.tesimonail .content hr::before{
+    content: "";
+    position: absolute;
+    left: 31px;
+    right: 0;
+    height: 10px;
+    width: 10px;
+    background: blue;
+    bottom: 0;
+    top: -1px;
+    border: 8px solid transparent;
+    border-bottom-color: #ece9f0;
+    transform: rotate(180deg);
+
 }
-.client .author img{
-    width: 70px;
-    height: 70px;
+.tesimonail .content .person{
+    padding-top: 30px;
+}
+.tesimonail .content .person img{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
+
+/* testimonail arear design finsh here */
+
+/* best univercity area design finish here */
+.Events{
+    background: #F5F5F5;
+}
+.Events .text{
+    text-align: center;
+}
+.Events .text span{
+    text-transform: uppercase;
+    color: #ff5421;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.Events .text h3{
+    color:#132643;
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 700;
+}
+.Events .Even{
+    margin-top: 40px;
+    background: #fff;
+    margin: 40px 10px;
+}
+.Events .Even .content{
+    padding: 30px 20px;
+}
+.Events .Even h2{
+    color: #132643;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.Events .Even p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61686E;
+}
+.Events .Even a{
+    color: #e43804;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* program area design finish here */
