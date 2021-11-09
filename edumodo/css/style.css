@@ -378,6 +378,15 @@ header{
     font-family: 'Roboto', sans-serif;
     padding-bottom: 10px;
 }
+.Events .Even ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.Events .Even ul i{
+    color: #ff5421;
+    padding-right: 10px;
+}
 .Events .Even p{
     font-size: 16px;
     font-weight: 400;
@@ -391,5 +400,44 @@ header{
     margin-top: 10px;
     display: block;
 }
+/* Events area design finish here */
 
-/* program area design finish here */
+/* campus section area design start from here */
+.campus{
+    background: url(../img/banner/banner-4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+    text-align: center;
+} 
+.campus .overlay{
+    background-color: #03132D;
+    opacity: 0.8;
+    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.campus span{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.campus h3{
+    font-size: 45px;
+    line-height: 45px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.campus button{
+    padding: 0;
+    background: transparent;
+}
+.campus button i{
+    font-size: 80px;
+    transition-duration: 0.3s;
+}
+.campus button i:hover{
+    color: tomato;
+}
+/* campus area design finsh here */
+/* why choose area design start from here */
