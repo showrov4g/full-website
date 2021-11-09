@@ -245,3 +245,74 @@ header{
     margin-top: 10px;
     display: block;
 }
+/* course area design area finish here */
+
+/* our client area design start from here */
+.our-client{
+    background-image: url(../img/bg/course-img-9\ \(1\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-client .overlay{
+    background-color: rgba(255, 84, 33, 0.9);
+}
+.our-client h3{
+    color: #fff;
+    font-size: 45px;
+    font-size: 700;
+}
+.our-client span{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+/* our client area design finsih here */
+
+.tesimonail .text{
+    text-align: center;
+}
+.tesimonail .text span{
+    text-transform: uppercase;
+    color: #ff5421;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.tesimonail .text h3{
+    color:#132643;
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 700;
+}
+.client{
+    background-color: #F5F5F5;
+    padding: 40px 20px;
+}
+.client p::before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ece9f0;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+.client p{
+    color: #61686E;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.client .author{
+    display: flex;
+    margin-top: 20px;
+    z-index: 1;
+}
+.client .author img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

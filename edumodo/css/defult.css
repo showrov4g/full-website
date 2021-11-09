@@ -35,6 +35,7 @@ body{
 .col-33{
     width: 30%;
     float: left;
+    margin: auto;
 }
 .col-40{
     width: 40%;
