@@ -441,3 +441,128 @@ header{
 }
 /* campus area design finsh here */
 /* why choose area design start from here */
+.choose{
+    background:#F5F5F5;
+}
+.choose .content{
+    padding: 50px 0px 0px 60px;
+}
+.choose .content .work{
+    display: flex;
+    margin-top: 30px;
+}
+.choose .content h3{
+    font-size: 45px;
+    color: #132643;
+}
+.choose .content .work i{
+    padding: 20px 20px;
+    background-color: #FF5421;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.choose .content h4{
+    font-size: 24px;
+    color: #132643;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.choose .content p{
+    font-size: 16px;
+    color: #61686e;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/* choose area design finish here */
+/* best univercity area design finish here */
+.teacher .text{
+    text-align: center;
+}
+.teacher .text span{
+    text-transform: uppercase;
+    color: #ff5421;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.teacher .text h3{
+    color:#132643;
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 700;
+}
+.teacher .teach .img{
+    position: relative;
+}
+.teacher .teach .img::before:hover{
+    background-color: yellow;
+}
+/* teacher area design finish here */
+
+/* latest news area design start from here  */
+/* best univercity area design finish here */
+.latest{
+    background: #F5F5F5;
+}
+.latest .text{
+    text-align: center;
+}
+.latest .text span{
+    text-transform: uppercase;
+    color: #ff5421;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+.latest .text h3{
+    color:#132643;
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 700;
+}
+.latest .Even{
+    margin-top: 40px;
+    background: #fff;
+    margin: 40px 10px;
+    overflow: hidden;
+}
+.latest .Even .content{
+    padding: 30px 20px;
+}
+.latest .Even img{
+    transition-duration: 0.5s;
+}
+.latest .Even:hover > img{
+    transform: scale(1.1);
+}
+.latest .Even h2{
+    color: #132643;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.latest .Even ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.latest .Even ul i{
+    color: #ff5421;
+    padding-right: 10px;
+}
+.latest .Even p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #61686E;
+}
+.latest .Even a{
+    color: #e43804;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 10px;
+    display: block;
+}
