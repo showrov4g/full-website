@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-full{
+    width: 100%;
+    margin: 0 auto;
+}
+.container-full::before,
+.container-full::after, 
+.container::after,
+.container::before{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.col-20{
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+.col-25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+.col-33{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.col-60{
+    width: 60%;
+    float: left;
+    padding: 0 15px;
+}
