@@ -566,3 +566,62 @@ header{
     margin-top: 10px;
     display: block;
 }
+/* form area design finish */
+footer{
+    background: #252525;
+}
+footer h3{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+footer span{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0;
+    color: #fff;
+}
+footer ul{
+    margin-top: 10px;
+}
+footer ul li{
+    padding: 5px 0;
+}
+footer ul li a{
+    color: #FFF;
+}
+footer ul li i{
+    padding-right: 10px;
+}
+footer ul li h4{
+    color: #fff;
+}
+footer .map img{
+    width: 90%;
+}
+/* footer top finsh */
+.footer-bottom{
+    background-color: #1D1D1D;
+    padding: 50px 0;
+}
+.footer-bottom .ft ul{
+    float:right;
+}
+.footer-bottom .ft ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.footer-bottom .ft ul li a{
+    color: #fff;
+}
+.footer-bottom .ft span{
+    color: #fff;
+}
+.footer-bottom .ft span a{
+    color: #fff;
+}
+.footer-bottom .ft span a:hover{
+    text-decoration: underline;
+    color: red;
+}
