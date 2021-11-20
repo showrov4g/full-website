@@ -174,3 +174,114 @@ header{
     color: #fff;
     background: #FF630E;
 }
+/* hero section area design finish here */
+
+/* categories area design start from here  */
+.categori .text{
+    text-align: center;
+}
+.categori .text span{
+    color: #FE630E;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.categori .text h3{
+    color: #130f40;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+.categori .category{
+    overflow: hidden;
+    clear: both;
+}
+.categori .category .box{
+    padding: 20px 20px 15px 20px;
+    box-shadow: 0px 0px 15px 0px rgb(51 51 51 / 10%);
+    text-align: center;
+    transition-duration: 1s;
+}
+.categori .category .box:hover{
+    box-shadow: 0px 10px 40px 0px rgb(51 51 51 / 20%);
+}
+.categori .category .box .text{
+    margin: 25px 0;
+}
+.categori .category .box h3{
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.categori .category .box h5{
+    color: #696969;
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.categori .button{
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.categori .button a{ 
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1px;
+    background-color: #FF630E;
+    border-radius: 4px 4px 4px 4px;
+    padding: 14px 30px 14px 30px;  
+    display: inline-block ;
+    color: #fff !important;
+}
+/* categouries area design finish here */
+
+/* course area design start from here */
+.courses{
+    background: #F7F7F7;
+}
+.courses .text{
+    text-align: center;
+}
+.courses .text span{
+    color: #FE630E;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.courses .text h3{
+    color: #130f40;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+.courses .all-courses .box{
+    box-shadow: 0px 0px 15px 0px rgb(51 51 51 / 10%);
+    text-align: center;
+    transition-duration: 1s;
+}
+.courses .all-courses .box:hover{
+    box-shadow: 0px 10px 40px 0px rgb(51 51 51 / 20%);
+}
+
+.all-courses .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+/* course area design finish from here */
