@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:wght@300;400&display=swap');
-/* google font */
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+}
 .container-full{
     width: 100%;
     margin: 0 auto;
@@ -32,6 +35,11 @@
     float: left;
     padding: 0 15px;
 }
+.col-30{
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
 .col-33{
     width: 33.33%;
     float: left;
@@ -46,6 +54,18 @@
     width: 60%;
     float: left;
     padding: 0 15px;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.section-padding{
+    padding: 150px 0;
 }
 /* 
 font-family: 'Rajdhani', sans-serif;

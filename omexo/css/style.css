@@ -1,0 +1,176 @@
+/* top header area design statr from here */
+.top-header{
+    background: #0e0a38;
+}
+.top-header .search-box{
+    position: relative;
+    padding-top: 10px;
+}
+.top-header .search-box input{
+    background-color: rgba(255,255,255,0.1);
+    border:none;
+    padding: 15px 40px 15px 15px;
+    color: #fff;
+    border-radius: 3px;
+}
+.top-header .search-box i{
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    opacity: 0.5;
+    cursor: pointer;
+    color: rgba(255,255,255,0.5);
+}
+.contact{
+    text-align: right;
+    padding-top: 20px;
+}
+.contact span{
+    margin-left: 20px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+.contact span i{
+    padding-right: 10px;
+}
+.social-icon{
+    text-align: right;
+}
+.social-icon li{
+    display: inline-block;
+}
+.social-icon li a{
+    color: #fff;
+    margin: 20px 10px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    font-size: 14px;
+    line-height: 25px;
+}
+.social-icon li a:hover{
+    color: #FF630E;
+}
+/* top header area design finish  */
+/* header area design start from here  */
+header{
+    padding: 10px 0;
+}
+
+.menu{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px 15px;
+}
+.menu ul li a{
+    color: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 19px;
+    line-height: 19px;
+    transition-duration: 0.3s;
+}
+.menu ul li a:hover{
+    color: #FF630E;
+}
+.curt{
+    position: relative;
+}
+.curt::before{
+    content: "0";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #FF630E;
+    border-radius: 50%;
+    top: -12px;
+    right: -12px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.login a{
+    background: #FE630E;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Rbuik', sans-serif;
+    color: #fff;
+    padding: 10px 18px;
+    display: inline-block;
+    float: left;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+/* header area desin finsh here */
+
+/* hero section area design start from here */
+
+.hero{
+    background: url(../img/background/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.hero .overlay{
+    background-color: #050133;
+    opacity: 0.7;
+}
+.hero span {
+    color: #FF630E;
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.hero h3{
+    color: #FFFFFF;
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 80px;
+    width: 80%;
+    margin: auto;
+}
+.hero p{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 30px 0;
+    width: 60%;
+    margin: auto;
+}
+.hero .link a{    
+    border-radius: 4px 4px 4px 4px;
+    background-color: #FF630E;
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+}
+.hero .link a:nth-child(2){
+    color: #FF630E;
+    background: #fff;
+    transition-duration: 0.5s;
+}
+.hero .link a:hover{
+    color: #FE630E;
+    background: #fff;
+}
+.hero .link a:nth-child(2):hover{
+    color: #fff;
+    background: #FF630E;
+}
